@@ -16,33 +16,5 @@ body {
   align-items: center;
   min-height: 100vh;
   background:#420039;
-  flex-direction: column;
 }
-.main {
-  
-}
-
-.woj__opol {
  
-}
-.quant {
-  width: 240px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  &__box{
-  width: 80px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &--inside { 
-   
-  }
-
-
-  }
-  
-}
