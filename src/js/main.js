@@ -52,14 +52,13 @@ const wiel = document.querySelector(".woj__wiel");
 map['Wielkopolskie'] = wiel;
 
 
-map.addEventListener(onmouseover, (e) => {
-for (let key in map) {
-  console.log(key);
+podl.addEventListener(onmouseover, (e) => {
+  
       'fill'; '#eee',
     'opacity' ; 0.4,
       'stroke' ; '#fff',
         'stroke-width' ; 2
-  }
+  
   
 })
   //ustawiamy domyślny wygląd ścieżki
